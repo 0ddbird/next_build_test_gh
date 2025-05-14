@@ -1,8 +1,8 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "main": ".open-next/worker.js",
-  "name": "next-cloudflare-test",
-  "compatibility_date": "2024-01-01",
+  "name": "nextbuildtest",
+  "compatibility_date": "2024-12-30",
   "compatibility_flags": ["nodejs_compat"],
   "assets": {
     "directory": ".open-next/assets",
@@ -14,11 +14,10 @@
       "service": "nextbuildtest"
     }
   ],
-  "kv_namespaces": [],
   "routes": [],
   "env": {
     "production": {
-      "name": "next-cloudflare-test-prod"
+      "name": "nextbuildtest-prod"
     }
   }
 }
